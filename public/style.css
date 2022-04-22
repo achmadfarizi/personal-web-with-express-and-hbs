@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+/*-------------------------NAVBAR-----------------------*/
+.navbarr{
+    background-color: rgb(221, 221, 221);
+}
+
+.navbarr ul li a{
+    margin-left: 20px;
+}
+
+.navbarr .contactme{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 12px;
+}
+
+.navbarr .contactme{
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    font-size: 13px;
+    background-color: black;
+    border-radius: 12px;
+}
+/*-------------------------NAVBAR-----------------------*/
+
+/*-------------------------CARD-----------------------*/
+.card-personal{
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+.card-personal .card-main{
+    padding: 25px 30px;
+}
+
+.card-personal .card-main .left{
+    padding-right: 25px;
+}
+
+.card-personal .card-main .left p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.card-personal .card-main .left a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+.card-personal .card-main .left .btn{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+.card-personal .card-main .left .icon img{
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 40px ;
+}
+
+.card-personal .card-main .right{
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+.card-personal .card-main .right img{
+    height: 85%;
+    width: 100%;
+}
+
+.card-personal .card-main .right h6{
+    margin-top: 8px;
+}
+
+.card-personal .card-main .right p{
+    margin-top: -8px;
+    font-size: 13px;
+}
+/*-------------------------CARD-----------------------*/
+
+/*-------------------------CARD PROJECT-----------------------*/
+.cardbg{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.cardbg h2{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.cardproject{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.cardproject .logo img{
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.cardproject .btn{
+    width: 49%;
+    color: white;
+    border-radius: 12px;
+}
+
+.cardproject a{
+    text-decoration: none;
+}
+
+.cardproject .crd-txt{
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+/*-------------------------CARD PROJECT-----------------------*/
+
+/*-------------------------ADDPROJECT-----------------------*/
+
+.addproject h2{
+    text-align: center;
+}
+
+.addproject form{
+    width: 550px;
+    margin: auto;
+}
+
+.addproject textarea{
+    height: 120px;
+}
+
+.addproject input, textarea{
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+.addproject .btn{
+    float: right;
+    border-radius: 12px;
+}
+
+/*-------------------------ADDPROJECT-----------------------*/
+
+/*-------------------------CONTACTME-----------------------*/
+
+
+.contactme h2{
+    text-align: center;
+}
+
+.contactme form {
+    width: 550px;
+    margin: auto;
+}
+
+.contactme form .btn{
+    float: right;
+}
+
+.contactme form input, select, textarea{
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+
+  /* Blog Detail */
+.blog-detail { 
+    /* margin-top: 10px; */
+    width: 90% ;
+    margin: auto;
+}
+
+.blog-detail h1 { 
+    text-align: center;
+}
+.blog-detail .blog-detail-header { 
+    display: flex;
+    flex: 50% ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.blog-detail-header .left { 
+    /* background-color: red; */
+    width: 60%;
+    margin-right: 20px ;
+}
+.left > img { 
+    width: 100%;
+}
+.blog-detail-header .right { 
+    /* background-color: purple; */
+    width: 30%;
+    margin-left: 20px ;
+    font-size: 15px;
+}
+.blog-detail .right img { 
+    width: 25px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.right .right-top { 
+    margin-top: 20px;
+}
+.right-top h3 { 
+    margin-bottom: 10px;
+}
+.right-bottom { 
+    margin-top: 20px;
+    /* background-color: red; */
+}
+.right-bottom h3 { 
+    margin-bottom: 20px;
+}
+.right-bottom .right-bottom-wrap{ 
+    display: flex;
+    /* background-color: white; */
+    color: black;
+    width: 100%;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.blog-detail-content { 
+    text-align: justify;
+}
